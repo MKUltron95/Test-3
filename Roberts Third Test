@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+
+<title>Robert Astley</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<style>
+    body {
+    text-align: center;
+    font-family: "Arial";
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('https://static.pexels.com/photos/243136/pexels-photo-243136.jpeg');
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+ <img src="https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/12246904_999262563471093_9064358606228474407_n.jpg?oh=da45d366ffb2b354977f6a53f6647a75&oe=593FC2A2">
+        <h1 class="animated rotateIn">Robert Astley </h1>
+        <p class="animated flash">Learning Coder</p>
+        <p class="animated wobble">Aspiring Artist by Night</p>
+
+<p id="helloText">?</p>
+<button id="clickButton" class="buttonStyle">ayy lmao</button>
+
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+myButton.addEventListener('click', doSomething, false)
+function doSomething() {
+	myText.textContent = "gameboyguru10@gmail.com";
+}
+</script>
+
+</body>
+</html>
